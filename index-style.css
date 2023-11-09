@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap");
+
+/* Corpo do Site*/
+
+body {
+  margin: 20px 8%;
+  background-color: #fff3e7;
+  font-family: "JetBrains Mono";
+}
+
+/* Menu */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h1.title {
+  margin: 0px;
+  width: 70%;
+
+  background-color: #f0d67a;
+  border: 3px solid black;
+  padding: 20px;
+
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* Botões */
+
+#buttons {
+  margin-top: 15px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+a.links {
+  width: 200px;
+  margin: 10px;
+
+  background-color: khaki;
+  border: solid 3px black;
+  border-radius: 50px;
+  padding: 15px 30px;
+
+  text-decoration: none;
+  color: inherit;
+  font-size: 12pt;
+  text-align: center;
+
+  transition: 0.25s;
+}
+
+.links:hover {
+  border: solid 3px black;
+  background-color: #e0c64c;
+}
+
+h2 {
+  margin: 0px;
+}

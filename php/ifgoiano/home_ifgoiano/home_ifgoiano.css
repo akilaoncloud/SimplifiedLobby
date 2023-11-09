@@ -1,0 +1,141 @@
+/* Padrão */
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+section {
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Formatações */
+
+.display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Menu */
+
+header {
+  background-color: black;
+  color: white;
+  height: 80px;
+  position: absolute;
+  width: 100%;
+}
+
+#logo {
+  width: 90px;
+  background-color: black;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 20px;
+  float: left;
+}
+
+#menu {
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0% 0%;
+  padding-left: 0;
+}
+
+li {
+  padding: 28px 30px 27px;
+  font-size: 16pt;
+}
+
+.li-btn:hover {
+  background-color: #00610d;
+  transition: 0.15s;
+}
+
+/* Título */
+
+#imgfundo {
+  padding: 0%;
+  background: url("https://r4.wallpaperflare.com/wallpaper/585/258/417/simple-simple-background-minimalism-abstract-wallpaper-a93048dd21aa6d8bc6e7f87f40b136ad.jpg");
+  background-size: cover;
+  width: 100vw; /* % view width */
+  height: 100vh; /* % view height */
+  color: white;
+  text-shadow: black 3px 3px 4px;
+}
+
+#text-title {
+  flex-direction: column;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#title {
+  font-size: 65px;
+  margin: 0px;
+}
+
+#sbtitle {
+  border-top: 5px solid white;
+  font-size: 25px;
+  margin: 10px 0px 30px;
+  padding: 10px;
+}
+
+#action {
+  color: white;
+  border: 4px black solid;
+  background-color: #00610d;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px black;
+  border-radius: 50px;
+  padding: 10px 20px;
+  box-shadow: black 2px 2px 5px;
+  transition: 0.2s;
+}
+
+#action:hover {
+  background-color: #00720f;
+  padding: 10px 25px;
+  transition: 0.2s;
+}
+
+/* Responsividade */
+
+@media all and (max-width: 999px) {
+  #menu {
+    visibility: hidden;
+  }
+
+  #logodiv {
+    width: 100%;
+    position: relative;
+    text-align: center;
+  }
+
+  #logo {
+    margin-left: 0;
+    transform: translateX(-50%);
+  }
+
+  #text-title {
+    margin-top: 100px;
+  }
+
+  #title {
+    font-size: 300%;
+  }
+
+  #sbtitle {
+    width: 80%;
+  }
+}

@@ -1,0 +1,25 @@
+p = input()
+
+# a b c d e f g h i j k l m n o p q r s t u v x z
+
+p = p.replace("z", "zuz")
+p = p.replace("x", "xuz")
+p = p.replace("v", "vux")
+p = p.replace("t", "tuv")
+p = p.replace("s", "sut")
+p = p.replace("r", "ros")
+p = p.replace("q", "qor")
+p = p.replace("p", "poq")
+p = p.replace("n", "nop")
+p = p.replace("m", "mon")
+p = p.replace("l", "lim")
+p = p.replace("k", "kil")
+p = p.replace("j", "jik")
+p = p.replace("h", "hij")
+p = p.replace("g", "geh")
+p = p.replace("f", "feg")
+p = p.replace("d", "def")
+p = p.replace("c", "cad")
+p = p.replace("b", "bac")
+
+print(p)

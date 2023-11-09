@@ -1,0 +1,62 @@
+/* Corpo do Site*/
+
+body {
+  background-color: #303030;
+  margin: 3% 4%;
+
+  font-family: monospace;
+  color: white;
+  letter-spacing: 2px;
+}
+
+/* Seções */
+
+section {
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+
+  margin-bottom: 6%;
+}
+
+/* Texto */
+
+.bckgrnd {
+  width: 100%;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin: 2.5px 0px;
+  padding: 10px 20px;
+}
+
+/* Backgrounds */
+
+.easyt {
+  color: #00a143;
+}
+.easyb {
+  background-color: #015f30;
+}
+
+.normalt {
+  color: #ccad00;
+}
+.normalb {
+  background-color: #745900;
+}
+
+.hardt {
+  color: #cc7400;
+}
+.hardb {
+  background-color: #744200;
+}
+
+.hardcoret {
+  color: #b40000;
+}
+.hardcoreb {
+  background-color: #740e00;
+}

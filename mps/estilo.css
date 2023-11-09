@@ -1,0 +1,454 @@
+/* Padrão */
+
+html,
+body {
+  margin: 0;
+}
+
+html {
+  font-family: Arial;
+}
+
+section {
+  padding: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Segoe UI";
+  font-size: 45px;
+  margin: 20px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 20px;
+}
+
+/* Formatações */
+
+.display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.drodape {
+  align-items: unset;
+}
+
+.justificado {
+  text-align: justify;
+}
+
+.centralizado {
+  text-align: center;
+}
+
+.destaque {
+  background-color: white;
+}
+
+.destaquep {
+  background-color: #272727;
+}
+
+/* Menu */
+
+header {
+  background-color: #1b1b1b;
+  color: white;
+  height: 90px;
+  position: absolute;
+  width: 100%;
+}
+
+#logo {
+  width: 130px;
+  background-color: #1b1b1b;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 20px;
+  float: left;
+}
+
+#menu {
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0% 5%;
+  padding-left: 0;
+}
+
+li {
+  padding: 33px 30px 32px;
+  font-size: 16pt;
+}
+
+li:hover {
+  background-color: #c5192dd5;
+  transition: 0.15s;
+}
+
+/* Título */
+
+#imgfundo {
+  padding: 0%;
+  background: url("imgs/fundo.jpg");
+  background-size: cover;
+  height: 100%;
+  color: white;
+  text-shadow: black 2px 2px 15px;
+}
+
+#text-title {
+  flex-direction: column;
+  justify-content: center;
+}
+
+#title {
+  font-size: 65px;
+  font-family: "Lucida Bright";
+  margin: 0px;
+}
+
+#sbtitle {
+  border-top: 5px solid white;
+  font-size: 25px;
+  margin: 10px 0px 30px;
+  padding: 10px;
+  font-family: "Lucida Bright";
+}
+
+#action {
+  color: white;
+  border: 4px black solid;
+  background-color: #c5192d;
+  font-weight: bold;
+  text-shadow: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  text-decoration: none;
+  box-shadow: black 2px 2px 5px;
+  transition: 0.2s;
+}
+
+#action:hover {
+  background-color: #a11526;
+  padding: 10px 25px;
+  transition: 0.2s;
+}
+
+/* ODS */
+
+#ods {
+  padding: 0%;
+  justify-content: space-evenly;
+}
+
+#img-ods {
+  width: 100%;
+  height: 100%;
+}
+
+iframe {
+  margin: 20px;
+  box-shadow: black 3px 3px 8px;
+}
+
+#text-ods {
+  width: 600px;
+  margin: 30px 0px;
+}
+
+/* Gamificação */
+
+#gamificacao {
+  padding: 30px;
+  justify-content: space-evenly;
+  color: white;
+}
+
+#img-gami {
+  width: 560px;
+  height: 315px;
+  margin: 20px;
+  box-shadow: black 3px 3px 8px;
+}
+
+#text-gami {
+  width: 600px;
+}
+
+/* Mecânicas */
+
+#mecs {
+  align-items: baseline;
+  justify-content: center;
+}
+
+#title-mec {
+  margin-bottom: 50px;
+}
+
+.icons {
+  width: 51px;
+}
+
+.title-icon {
+  font-size: 23px;
+}
+
+.desc-icon {
+  font-size: 18px;
+}
+
+.text-icon {
+  width: 350px;
+  padding: 20px;
+}
+
+/* aplicativos */
+
+#aplicativos {
+  color: white;
+}
+
+#title-ex {
+  margin: 30px;
+  font-size: 35px;
+}
+
+#apps {
+  align-items: baseline;
+}
+
+.imgapp {
+  width: 200px;
+  height: 200px;
+}
+
+.appname {
+  margin-bottom: 0%;
+  border: #c5192d 2px solid;
+  padding: 10px 20px;
+  border-radius: 40px;
+  transition: 0.2s;
+}
+
+.appname:hover {
+  background-color: #1d1d1d;
+  text-shadow: black 3px 3px 8px;
+  padding: 10px 30px;
+  transition: 0.2s;
+}
+
+.appdesc {
+  width: 260px;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Sobre */
+
+#sobre {
+  padding-bottom: 0%;
+  justify-content: space-evenly;
+  align-items: unset;
+}
+
+#sbmim {
+  width: 450px;
+  padding-bottom: 40px;
+}
+
+#title-sbmim {
+  margin: 0px 0px 30px;
+  font-size: 35px;
+  text-align: center;
+}
+
+#foto {
+  width: 300px;
+}
+
+/* Rodapé */
+
+footer {
+  background-color: #c5192d;
+  width: 100%;
+  padding: 30px 0px 50px;
+  color: white;
+}
+
+.drodape {
+  justify-content: space-around;
+}
+
+.title-rodape {
+  font-size: 20px;
+  text-align: unset;
+  margin: unset;
+}
+
+.text-rodape {
+  width: 470px;
+}
+
+.empresas:hover {
+  color: #66000e;
+  transition: 0.2s;
+}
+
+/* Responsividade */
+
+@media all and (max-width: 999px) {
+  #menu {
+    visibility: hidden;
+  }
+
+  #logodiv {
+    width: 100%;
+    position: relative;
+    text-align: center;
+  }
+
+  #logo {
+    margin-left: 0;
+    transform: translateX(-50%);
+  }
+}
+
+@media all and (max-width: 1125px) {
+  iframe {
+    width: 460px;
+  }
+
+  #text-ods {
+    width: 480px;
+  }
+}
+
+@media all and (max-width: 425px) {
+  h3 {
+    font-size: 30px;
+  }
+
+  #text-title {
+    margin-top: 90px;
+  }
+
+  #title {
+    font-size: 60px;
+  }
+
+  #sbtitle {
+    width: 300px;
+  }
+
+  #ods {
+    padding-bottom: 30px;
+  }
+
+  #title-ods {
+    margin-top: 30px;
+  }
+
+  #text-ods {
+    width: 310px;
+    margin: 0%;
+  }
+
+  iframe {
+    width: 280px;
+    height: 170px;
+  }
+
+  #img-gami {
+    width: 280px;
+    height: 170px;
+  }
+
+  #text-gami {
+    width: 260px;
+  }
+
+  #title-mec {
+    margin: 0px 0px 25px;
+  }
+
+  .appdesc {
+    padding: 40px 0px;
+  }
+
+  #title-ex {
+    margin-bottom: 40px;
+  }
+
+  .text-icon {
+    width: 300px;
+  }
+
+  #sbmim {
+    width: 300px;
+  }
+
+  .text-rodape {
+    padding: 10px 20px;
+  }
+
+  .drodape {
+    padding: 15px 0px 30px;
+  }
+}
+
+@media all and (max-height: 425px) {
+  header {
+    height: 60px;
+  }
+
+  #logo {
+    width: 80px;
+  }
+
+  #text-title {
+    margin-top: 70px;
+  }
+
+  #title {
+    font-size: 30px;
+  }
+
+  #sbtitle {
+    font-size: 15px;
+  }
+
+  #action {
+    font-size: 15px;
+  }
+
+  #text-ods {
+    margin-bottom: 0%;
+  }
+
+  iframe {
+    margin-bottom: 50px;
+  }
+
+  #title-mec {
+    margin-bottom: 20px;
+  }
+
+  .appdesc {
+    padding: 20px 0px;
+  }
+}

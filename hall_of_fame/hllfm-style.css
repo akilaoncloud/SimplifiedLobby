@@ -1,0 +1,74 @@
+body {
+  margin: 10px;
+  background-color: #202020;
+
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Menu */
+
+header {
+  width: 100%;
+
+  border-radius: 20px;
+  background-color: #050505;
+  margin: 0px 0px 25px 0px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h1 {
+  padding: 0px 30px;
+}
+
+a {
+  display: flex;
+  align-items: center;
+
+  border-radius: 20px;
+  padding: 0px 40px;
+
+  color: white;
+  text-decoration: none;
+
+  transition: 0.2s;
+}
+
+a:hover {
+  background-color: cadetblue;
+  transition: 0.2s;
+}
+
+/* Corpo da Lista */
+
+#colunas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#c1 {
+  text-align: left;
+}
+
+#line {
+  border: solid 3px black;
+}
+
+#c2 {
+  text-align: right;
+}
+
+h2 {
+  width: 100%;
+
+  margin-top: 0px;
+
+  background-color: #121212;
+  border-radius: 10px;
+  padding: 15px 0px;
+  text-align: center;
+}
