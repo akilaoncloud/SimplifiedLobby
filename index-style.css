@@ -48,11 +48,11 @@ a.links {
   background-color: khaki;
   border: solid 3px black;
   border-radius: 50px;
-  padding: 15px 30px;
+  padding: 15px 20px;
 
   text-decoration: none;
   color: inherit;
-  font-size: 12pt;
+  font-size: 10pt;
   text-align: center;
 
   transition: 0.25s;

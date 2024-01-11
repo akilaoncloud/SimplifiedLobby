@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightsteelblue;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery img {
+    max-height: 90vh;
+    max-width: 90vw;
+    padding: 5vh;
+}
